@@ -1,0 +1,88 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0f172a;
+  color: #f1f5f9;
+  min-height: 100vh;
+}
+
+.app-header {
+  background: #1e293b;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #334155;
+}
+
+.app-header h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1f5f9;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.step-label { font-size: 13px; color: #94a3b8; }
+.screen { max-width: 700px; margin: 48px auto; padding: 0 20px; }
+
+.card {
+  background: #1e293b;
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid #334155;
+}
+
+.btn-primary {
+  background: #f59e0b;
+  color: #0f172a;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover { background: #d97706; }
+.btn-primary:disabled { background: #475569; color: #94a3b8; cursor: not-allowed; }
+
+.btn-secondary {
+  background: transparent;
+  color: #f1f5f9;
+  border: 1px solid #475569;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-secondary:hover { border-color: #94a3b8; }
+.error-msg { color: #f87171; font-size: 13px; margin-top: 8px; }
+
+.success-badge {
+  background: #064e3b;
+  border: 1px solid #10b981;
+  border-radius: 10px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.spinner {
+  width: 40px; height: 40px;
+  border: 4px solid #334155;
+  border-top-color: #f59e0b;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
