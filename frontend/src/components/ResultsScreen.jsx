@@ -180,7 +180,7 @@ export default function ResultsScreen({ questions, userAnswers, config, onRetake
             🔄 Retake Quiz
           </button>
           <button className="btn-secondary" onClick={onReset}>
-            ↑ Upload New PPT
+            ↑ Upload New File
           </button>
         </div>
       </div>
