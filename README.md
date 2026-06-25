@@ -1,49 +1,22 @@
 # 🚀 QuizBuilderAI
 
-<p align="center">
-  <img src="./outputs/home.png" width="900"/>
-</p>
+## 🎯 Project Overview
 
----
+QuizBuilderAI is a full-stack AI-powered quiz generation platform that allows users to create and attempt interactive quizzes.  
+Users can select topic, difficulty, and number of questions, and the system generates quizzes with instant scoring and result analysis.
 
-## 🎯 AI-Powered Quiz Generation Platform
-
-QuizBuilderAI is a full-stack application that generates interactive quizzes using AI concepts.  
-Users can select topic, difficulty, and number of questions, then attempt quizzes with instant scoring.
-
----
-
-## 📸 Live Preview
-
-<p align="center">
-  <img src="./outputs/quiz.png" width="850"/>
-</p>
-
-<p align="center">
-  <img src="./outputs/quiz-settings.png" width="850"/>
-</p>
-
-<p align="center">
-  <img src="./outputs/output1.png" width="850"/>
-</p>
-
-<p align="center">
-  <img src="./outputs/output2.png" width="850"/>
-</p>
-
-<p align="center">
-  <img src="./outputs/output3.png" width="850"/>
-</p>
+The project focuses on building an intelligent, interactive, and responsive quiz experience using modern web technologies.
 
 ---
 
 ## ✨ Features
 
-- 🧠 AI-based quiz generation  
-- 🎯 Custom quiz settings (topic, difficulty, questions)  
-- 📊 Instant scoring system  
-- 🏆 Result summary view  
-- 💻 Clean and responsive UI  
+- 🧠 AI-based quiz generation system  
+- 🎯 Custom quiz settings (topic, difficulty, number of questions)  
+- 📊 Instant scoring and result calculation  
+- 🏆 Detailed result summary  
+- 💻 Responsive and user-friendly UI  
+- 📁 Clean frontend + backend architecture  
 
 ---
 
@@ -53,6 +26,57 @@ Users can select topic, difficulty, and number of questions, then attempt quizze
 - Backend: Flask (Python)  
 - Styling: CSS  
 - API: REST-based backend  
+
+---
+
+## 📸 Project Screenshots (Step-by-Step Flow)
+
+### 1️⃣ Home Page
+<p align="center">
+  <img src="./outputs/home.png" width="850"/>
+</p>
+
+---
+
+### 2️⃣ File Upload / Start Page
+<p align="center">
+  <img src="./outputs/file_uploaded.png" width="850"/>
+</p>
+
+---
+
+### 3️⃣ Quiz Settings Page
+<p align="center">
+  <img src="./outputs/quiz-settings.png" width="850"/>
+</p>
+
+---
+
+### 4️⃣ Quiz Interface
+<p align="center">
+  <img src="./outputs/quiz.png" width="850"/>
+</p>
+
+---
+
+### 5️⃣ Result Page 1
+<p align="center">
+  <img src="./outputs/output1.png" width="850"/>
+</p>
+
+---
+
+### 6️⃣ Result Page 2
+<p align="center">
+  <img src="./outputs/output2.png" width="850"/>
+</p>
+
+---
+
+### 7️⃣ Result Page 3
+<p align="center">
+  <img src="./outputs/output3.png" width="850"/>
+</p>
 
 ---
 
@@ -73,8 +97,9 @@ quiz_platform/
 ├── frontend/
 ├── outputs/
 │   ├── home.png
-│   ├── quiz.png
+│   ├── file_uploaded.png
 │   ├── quiz-settings.png
+│   ├── quiz.png
 │   ├── output1.png
 │   ├── output2.png
 │   ├── output3.png
@@ -83,7 +108,7 @@ quiz_platform/
 🧠 AI explanation for answers
 📱 Mobile-friendly UI
 🌐 Deployment (Vercel / Render / Netlify)
-👤 User authentication
+👤 User authentication system
 🏆 Leaderboard system
 👩‍💻 Author
 
